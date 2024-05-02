@@ -1,0 +1,56 @@
+{
+    "res": [
+      {
+        "id": "1",
+        "name": "Business room",
+        "rooms": "8",
+        "stars": "4",
+        "comments":[
+            {
+                "id":"1",
+                "name":"JANE KINUTHIA",
+                "text":"Had a nice stay"
+            },{
+            "id":"2",
+                "name":"JOSEPH KINUTHIA",
+                "text":"Had a wonderful stay"
+            }
+        ]
+      },{
+        "id": "2",
+        "name": "VIP room",
+        "rooms": "2",
+        "stars": "8",
+        "comments":[
+            {
+                "id":"1",
+                "name":"JANE SHISIA",
+                "text":"Had a great time "
+            },{
+            "id":"2",
+                "name":"JOSEPH SHISIA",
+                "text":"See you next time "
+            }
+        ]
+      },
+      {
+        "id": "3",
+        "name": "economy room",
+        "rooms": "10",
+        "stars": "5",
+        "comments":[
+            {
+                "id":"1",
+                "name":"MARTHA KINUTHIA",
+                "text":"Its a no"
+            },{
+            "id":"2",
+                "name":"MARY KINUTHIA",
+                "text":"Never staying again"
+            }
+        ]
+      }
+    ]
+}
+      
+      

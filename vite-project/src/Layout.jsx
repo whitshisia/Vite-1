@@ -39,10 +39,15 @@ function Layout() {
     </div>
   </div>
 </nav>
-<div>
+<div className='bg-gray-100 
+text-lg container mx-auto min-h-[80vh]'>
     < Outlet />
+ </div>
+  <div>
     footerfooter
-</div>
+  </div>
+    
+
     </>
   )
 }

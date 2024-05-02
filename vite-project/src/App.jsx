@@ -5,6 +5,7 @@ import Layout from './Layout';
 import Contacts from './Pages/Contacts';
 import Addbooking from './Pages/Addbooking';
 import Booking from './Pages/Booking';
+import NoPage from './Pages/NoPage';
 function App() {
 
   return (
@@ -15,8 +16,9 @@ function App() {
       <Route path='/' element={<Home />} />
       <Route path='/contacts' element={<Contacts />} />
       <Route path='/addbooking' element={<Addbooking />} />
-        <Route path='booking' element={<Booking />} />
-        </Route>
+      <Route path="*" element={<NoPage />} />
+      <Route path='booking' element={<Booking />} />
+       </Route>
     </Routes>
     
     </BrowserRouter>
